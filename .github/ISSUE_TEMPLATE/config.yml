@@ -1,9 +1,0 @@
----
-blank_issues_enabled: true
-contact_links:
-  - name: AEternity Community Forum
-    url: https://forum.aeternity.com
-    about: Please ask and answer questions here. Most contributors can be found in the forum.
-  - name: Stack Overflow
-    url: https://stackoverflow.com/search?q=aeternity
-    about: Alternatively ask about technical issues here.

@@ -1,4 +1,0 @@
-contract ListOfMaps =
-
-  entrypoint cons(x : map('k, 'v), xs) = x :: xs
-

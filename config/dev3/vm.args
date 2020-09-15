@@ -1,9 +1,0 @@
--sname aeternity_dev3@localhost
-
--setcookie aeternity_cookie
--pa patches/ebin
-
-+K true
-+A 1
-+S 1
-+SDio 1
