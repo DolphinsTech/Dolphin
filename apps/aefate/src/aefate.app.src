@@ -1,0 +1,19 @@
+{application, aefate,
+ [{description, "Fate: Fast aeternity transaction engine"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    aebytecode,
+    getopt,
+    ecrecover,
+    emcl
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
