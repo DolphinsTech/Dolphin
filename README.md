@@ -30,7 +30,7 @@ repository.
 
 We publish packages for major platforms on GitHub.
 Each release comes with release notesrelease-notes describing the
-changes of the Dolphin node in each particular version.
+changes of the Dolphin node in each particular version .
 
 Please use the latest published stable releaselatest-release rather than the `master` branchmaster.
 The `master` branch tracks the ongoing efforts towards the next stable release to be published though it is not guaranteed to be stable.
