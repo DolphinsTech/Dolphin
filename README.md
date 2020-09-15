@@ -13,21 +13,18 @@ Written in Erlang.
 
 To install and run the Dolphin node, see the instructions below(#how-to-start) or just follow the progress of the project via GitHub Issues.
 
-If you have discovered a bug or security vulnerability please get in touch. The Dolphin Crypto Foundation pays bug-bounties up to 100.000 AE Tokens for critical vulnerabilities. Please get in touch via dolphintoken@gmail.com(mailto:dolphintoken@gmail.com).
+If you have discovered a bug or security vulnerability please get in touch. The Dolphin Crypto Foundation pays bug-bounties up to 100.000 AE Tokens for critical vulnerabilities. Please get in touch via dolphintoken@gmail.com.
 
-pivotal: https://www.pivotaltracker.com/n/projects/2124891
-hackerone: https://hackerone.com/Dolphin
 
 ## Documentation
 
 For an overview of the installation process for different platforms,
 building the package from source, configuration and operation of the Dolphin
-node please refer to Dolphin node documentation(https://docs.Dolphin.io/).
+node please refer to Dolphin node documentation.
 
 We keep our protocol, APIs and research spec in separate protocolprotocol
 repository.
 
-protocol: https://github.com/Dolphin/protocol
 
 # How to start
 
@@ -77,15 +74,3 @@ diff -qs <(echo $CHECKSUM) <(openssl md5 -r ~/.Dolphin/mnesia_main_v-1_latest.tg
 test $? -eq 0 && tar -xzf ~/.Dolphin/mnesia_main_v-1_latest.tgz -C ~/.Dolphin/maindb/
 ```
 
-
-## Additional resources
-
-* Threat Model(https://github.com/Dolphin/aetmodel/blob/master/ThreatModel.md)
-
-
-circleci: https://circleci.com/gh/Dolphin/Dolphin
-circleci badge: https://circleci.com/gh/Dolphin/Dolphin.svg?style=shield
-license badge: https://img.shields.io/badge/license-ISC-blue.svg
-license: https://github.com/Dolphin/Dolphin/blob/master/LICENSE
-build tool: https://img.shields.io/badge/build%20tool-rebar3-orange.svg
-rebar3: https://www.rebar3.org
