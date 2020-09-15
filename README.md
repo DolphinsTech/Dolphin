@@ -1,8 +1,5 @@
 # Dolphin node
 
-[![CircleCI][circleci badge]][circleci]
-[![License][license badge]][license]
-[![Build Tool][build tool]][rebar3]
 
 A new blockchain for Dpps.
 
@@ -14,37 +11,34 @@ Comes with a naming system, for developerability.
 
 Written in Erlang.
 
-To install and run the Dolphin node, see the instructions [below](#how-to-start) or just follow the progress of the project via GitHub Issues.
+To install and run the Dolphin node, see the instructions below(#how-to-start) or just follow the progress of the project via GitHub Issues.
 
-If you have discovered a bug or security vulnerability please get in touch. The Dolphin Crypto Foundation pays bug-bounties up to 100.000 AE Tokens for critical vulnerabilities. Please get in touch via [security@Dolphin-foundation.org](mailto:security@Dolphin-foundation.org).
+If you have discovered a bug or security vulnerability please get in touch. The Dolphin Crypto Foundation pays bug-bounties up to 100.000 AE Tokens for critical vulnerabilities. Please get in touch via dolphintoken@gmail.com(mailto:dolphintoken@gmail.com).
 
-[pivotal]: https://www.pivotaltracker.com/n/projects/2124891
-[hackerone]: https://hackerone.com/Dolphin
+pivotal: https://www.pivotaltracker.com/n/projects/2124891
+hackerone: https://hackerone.com/Dolphin
 
 ## Documentation
 
 For an overview of the installation process for different platforms,
 building the package from source, configuration and operation of the Dolphin
-node please refer to [Dolphin node documentation](https://docs.Dolphin.io/).
+node please refer to Dolphin node documentation(https://docs.Dolphin.io/).
 
-We keep our protocol, APIs and research spec in separate [protocol][protocol]
+We keep our protocol, APIs and research spec in separate protocolprotocol
 repository.
 
-[protocol]: https://github.com/Dolphin/protocol
+protocol: https://github.com/Dolphin/protocol
 
 # How to start
 
-We [publish packages][releases] for major platforms on GitHub.
-Each release comes with [release notes][release-notes] describing the
+We publish packages for major platforms on GitHub.
+Each release comes with release notesrelease-notes describing the
 changes of the Dolphin node in each particular version.
 
-Please use the [latest published stable release][latest-release] rather than the [`master` branch][master].
+Please use the latest published stable releaselatest-release rather than the `master` branchmaster.
 The `master` branch tracks the ongoing efforts towards the next stable release to be published though it is not guaranteed to be stable.
 
-[releases]: https://github.com/Dolphin/Dolphin/releases
-[release-notes]: /docs/release-notes
-[latest-release]: https://github.com/Dolphin/Dolphin/releases/latest
-[master]: https://github.com/Dolphin/Dolphin/tree/master
+
 
 ## Quick Install
 
@@ -86,12 +80,12 @@ test $? -eq 0 && tar -xzf ~/.Dolphin/mnesia_main_v-1_latest.tgz -C ~/.Dolphin/ma
 
 ## Additional resources
 
-* [Threat Model](https://github.com/Dolphin/aetmodel/blob/master/ThreatModel.md)
+* Threat Model(https://github.com/Dolphin/aetmodel/blob/master/ThreatModel.md)
 
 
-[circleci]: https://circleci.com/gh/Dolphin/Dolphin
-[circleci badge]: https://circleci.com/gh/Dolphin/Dolphin.svg?style=shield
-[license badge]: https://img.shields.io/badge/license-ISC-blue.svg
-[license]: https://github.com/Dolphin/Dolphin/blob/master/LICENSE
-[build tool]: https://img.shields.io/badge/build%20tool-rebar3-orange.svg
-[rebar3]: https://www.rebar3.org
+circleci: https://circleci.com/gh/Dolphin/Dolphin
+circleci badge: https://circleci.com/gh/Dolphin/Dolphin.svg?style=shield
+license badge: https://img.shields.io/badge/license-ISC-blue.svg
+license: https://github.com/Dolphin/Dolphin/blob/master/LICENSE
+build tool: https://img.shields.io/badge/build%20tool-rebar3-orange.svg
+rebar3: https://www.rebar3.org
